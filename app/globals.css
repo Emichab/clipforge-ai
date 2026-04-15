@@ -1,0 +1,25 @@
+:root {
+  --bg: #06060f;
+  --s1: rgba(255,255,255,.03);
+  --s2: rgba(255,255,255,.06);
+  --brd: rgba(255,255,255,.06);
+  --acc: #FFE135;
+  --acc2: #FF6B35;
+  --txt: #e8e6f2;
+  --dim: #5a5a78;
+  --mid: #9999b5;
+}
+
+* { box-sizing: border-box; margin: 0; }
+html, body { background: var(--bg); color: var(--txt); font-family: 'Montserrat', sans-serif; overflow-x: hidden; }
+::selection { background: rgba(255,225,53,.2); }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,225,53,.12); border-radius: 2px; }
+input::placeholder { color: #555; }
+
+@keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+@keyframes slideUp { from { opacity:0; transform:translate(-50%,14px); } to { opacity:1; transform:translate(-50%,0); } }
+@keyframes spin { from { transform:rotate(0); } to { transform:rotate(360deg); } }
+@keyframes captionIn { from { opacity:0; transform:translate(-50%,6px) scale(.96); } to { opacity:1; transform:translate(-50%,0) scale(1); } }
+@keyframes dotPulse { 0%,100% { opacity:.3; transform:scale(.8); } 50% { opacity:1; transform:scale(1.2); } }

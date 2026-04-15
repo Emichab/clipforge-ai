@@ -1,0 +1,23 @@
+{
+  "name": "clipforge-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.448",
+    "@remotion/cli": "^4.0.448",
+    "@remotion/renderer": "^4.0.448",
+    "next": "^16.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.448",
+    "source-map": "^0.7.6"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
